@@ -6,19 +6,42 @@
         <!-- Datos que describen el documento -->
         <meta charset="UTF-8" />
         <title>Carrera</title>
+        <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
         <meta name="description" content="Formulario de la web"/>
         <meta name="author" content="Ivan Valle Soto-UO270762"/>
         <link rel="stylesheet" type="text/css" href="estilo.css"/>
     </head>
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">-Introduccion-</a>
-                <li><a href="biografia.html">-Biografia-</a>
-                <li><a href="negocios.html">-Negocios y reconocimientos-</a>
-                <li><a href="formulario.html">-Danos tu opinion-</a>
-            </ul>
-        </nav>
-    </body>
+
+<body>
+    <header>
+        <h1>Dejanos tu opinion</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">-Introduccion-</a>
+            <li><a href="biografia.html">-Biografia-</a>
+            <li><a href="negocios.html">-Negocios y reconocimientos-</a>
+            <li><a href="formulario.html">-Danos tu opinion-</a>
+        </ul>
+    </nav>
+
+    <form>
+        <label for="nom">Nombre: <input id="nom" type="text"></label><br/>
+        <label for="email">Email: <input id="email" type="email"></label>><br/>
+        <label for="fecha">Fecha de nacimiento: <input id="date" type="date"></label><br/>
+         <legend>Sobre Margaret Hamilton</legend>><br/>
+         <legend>¿La conocias antes de la web?</legend><br/>
+         <fieldset>
+            <label for="rdsi">Si<input id="rdsi" type="radio" name=pregunta></label><br/>
+            <label for="rdno">No<input id="rdno" type="radio" name=pregunta></label><br/>
+         </fieldset>
+        <label for="valoracion">Valora nuestra web <input type="number"></label><br/>
+        <label for="coment">Deja tu comentario <textarea></textarea></label><br/>
+        <button>Enviar</button><input type="submit" value="Enviar" >
+       </form>
+
+</body>
+
 </html>
