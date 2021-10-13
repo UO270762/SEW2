@@ -28,18 +28,23 @@
     </nav>
 
     <form>
-        <label for="nom">Nombre: <input id="nom" type="text"></label><br/>
-        <label for="email">Email: <input id="email" type="email"></label>><br/>
-        <label for="fecha">Fecha de nacimiento: <input id="date" type="date"></label><br/>
-         <legend>Sobre Margaret Hamilton</legend><br/>
-         <legend>¿La conocias antes de la web?</legend><br/>
+        <fieldset>
+            <legend>Tus datos:</legend><br/>
+            <label for="nom">Nombre: <input id="nom" type="text"></label><br/>
+            <label for="email">Email: <input id="email" type="email"></label>><br/>
+            <label for="fecha">Fecha de nacimiento: <input id="fecha" type="date"></label><br/>
+        </fieldset>
          <fieldset>
+            <legend>Sobre Margaret Hamilton ¿La conocias antes de la web?</legend><br/>
             <label for="rdsi">Si<input id="rdsi" type="radio" name=pregunta></label><br/>
             <label for="rdno">No<input id="rdno" type="radio" name=pregunta></label><br/>
          </fieldset>
-        <label for="valoracion">Valora nuestra web <input type="number"></label><br/>
-        <label for="coment">Deja tu comentario <textarea></textarea></label><br/>
-        <button>Enviar</button><input type="submit" value="Enviar" >
+         <fieldset>
+            <legend>Sobre la web:</legend><br/>
+            <label for="valoracion">Valora nuestra web <input id="valoracion" type="number"></label><br/>
+            <label for="coment">Deja tu comentario <textarea id="coment"></textarea></label><br/>
+            <button>Enviar</button><input type="submit" value="Enviar">
+         </fieldset>
        </form>
 
 </body>
