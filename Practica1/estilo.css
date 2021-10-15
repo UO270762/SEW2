@@ -2,10 +2,10 @@ body {
     font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
     line-height: 1.8;
     color: #000000 ;
-    background-color: #A9D3A9  ;
+    background-color: #a2e4ec  ;
 }
 h1 {
-    color: #193E19;
+    color: #044077;
     background-color: inherit;
     font-size: 60px;
     text-transform: uppercase;
@@ -13,7 +13,7 @@ h1 {
     text-align: center;     
 }
 h2 {
-    color: #193E19;
+    color: #075ca1;
     background-color: inherit;
     text-transform: uppercase;
     padding: 25px 25px;
@@ -23,7 +23,7 @@ p {
   font-size: 20px;   
 }
 table {
-    color: #193E19;
+    color: #084a96;
     background-color: inherit;
     text-transform: uppercase;
     text-align: center;
@@ -32,8 +32,14 @@ table {
 }
 th,td{
   color: #000000;
-  background-color: #80A880 ;
-  border: 1px solid #E8F2E8 ;
+  background-color: #378792 ;
+  border: 1px solid #000000 ;
+}
+
+tr{
+  color: #000000;
+  background-color: #40647c ;
+  border: 1px solid #000000 ;
 }
 
 img {
