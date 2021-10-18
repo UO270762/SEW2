@@ -88,7 +88,6 @@ nav li {
   padding-bottom: 0.75em;
 }
 
-
 section {
   padding-right: 5.00em;
   padding-left: 5.00em;
@@ -115,6 +114,13 @@ video {
   padding-left: 15.00em;
   padding-top: 2.00em;
   padding-bottom: 1.00em;
+}
+
+audio {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 47.00em;
+  margin-right: 47.00em;
 }
 
 footer{
@@ -149,7 +155,6 @@ cite {
     background-color: inherit;
     font-size: 20px; 
 }
-ol
 ol li {
     color:#000000;
     background-color: inherit;
@@ -191,5 +196,5 @@ form fieldset label input{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
