@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+     "nav section"
+}
+
+nav {
+    grid-area: nav;
+    position: sticky;
+    height: fit-content;
+    padding-right: 1,5em;
+}
