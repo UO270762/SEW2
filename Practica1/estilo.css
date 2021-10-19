@@ -36,7 +36,9 @@ h4 {
 }
 /*especifidad: 001*/
 p {
-  font-size: 1.25em;   
+  font-size: 1.25em; 
+  max-width: 100%;  
+  height: auto;
 }
 /*especifidad: 001*/
 table {
