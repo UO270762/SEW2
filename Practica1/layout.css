@@ -1,18 +1,9 @@
 body {
     display: grid;
     grid-template-areas:
-    "header"
-    "nav";
-}
-
-header {
-    grid-area: header;
-}
-
-nav {
-    grid-area: nav;
-    position: sticky;
-    height: fit-content;
-    padding-right: 1,5em;
+    'header'
+    'nav'
+    'section'
+    'footer';
 }
 

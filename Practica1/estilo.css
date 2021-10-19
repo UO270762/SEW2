@@ -1,44 +1,39 @@
 body {
-    font: 400 15px Tahoma,sans-serif; 
+    font: 400 1em Tahoma,sans-serif; 
     line-height: 1.8;
     color: #000000 ;
     background-color: #a2e4ec;
 }
 h1 {
     color: #044077;
-    background-color: #a2e4ec;
-    font-size: 60px;
+    font-size: 4em;
     text-transform: uppercase;
-    padding: 25px 25px;
+    padding: 1.6em 1.6em;
     text-align: center;     
 }
 h2 {
     color: #075ca1;
-    background-color: #a2e4ec;
     text-transform: uppercase;
-    padding: 25px 25px;
+    padding: 1.6em 1.6em;
     text-align: center;     
 }
 h3 {
     color: #075ca1;
-    background-color: #a2e4ec;
     text-transform: uppercase;
-    padding: 25px 25px;
+    padding: 1.6em 1.6em;
     text-align: center;     
 }
 h4 {
     color: #075ca1;
-    background-color: #a2e4ec;
     text-transform: uppercase;
-    padding: 25px 25px;
+    padding: 1.6em 1.6em;
     text-align: center;     
 }
 p {
-  font-size: 20px;   
+  font-size: 1.25em;   
 }
 table {
     color: #084a96;
-    background-color: #a2e4ec;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -47,18 +42,18 @@ table {
 th,td{
   color: #000000;
   background-color: #378792 ;
-  border: 1px solid #000000 ;
+  border: 0.125px solid #000000 ;
 }
 
 tr{
   color: #000000;
   background-color: #40647c ;
-  border: 1px solid #000000 ;
+  border: 0.07em solid #000000 ;
 }
 
 img {
   max-width: 100%;
-  height: 300px;
+  height: 19em;
   display: block;
   margin: auto;
 }
@@ -68,9 +63,10 @@ nav {
     display:flex;
     align-items: center;
     justify-content: center;
+    background-color: #D4D3BA;
 }
 nav a {
-  font-size: 15px;
+  font-size: 1em;
   outline: none;
   text-transform: none;
   transition: all .3s ease;
@@ -80,7 +76,6 @@ nav li {
   display: block;
   float: left;
   color: #a2e4ec;
-  background-color: #D4D3BA;
   padding-right: 1.00em;
   padding-left: 1.00em;
   padding-top: 0.75em;
@@ -98,14 +93,13 @@ a:link,
 a:visited {
   background-color: #D4D3BA;
   color: #353508;
-  font: 400 20px Tahoma,sans-serif;
+  font: 400  1.25em Tahoma,sans-serif;
 }
 
 a:hover,
 a:active {
-  background-color: #a2e4ec;
   color: #807B19 ;
-  font: 400 20px Tahoma,sans-serif;
+  font: 400 1.25em Tahoma,sans-serif;
 }
 
 video {
@@ -114,7 +108,6 @@ video {
   padding-top: 1.00em;
   padding-bottom: 1.00em;
   max-width: 100%;
-  max-height: auto;
 }
 
 audio {
@@ -145,21 +138,18 @@ figure{
 
 figure figcaption{
     color: #16437e;
-    background-color: #a2e4ec;
     text-transform: uppercase;
-    padding: 25px 25px;
+    padding: 1.6em 1.6em;
     text-align: center; 
-    font-size: 20px;
+    font-size: 1.25em;
 }
 cite {
     color:#000000;
-    background-color: #a2e4ec;
-    font-size: 20px; 
+    font-size: 1.25em; 
 }
 ol li {
     color:#000000;
-    background-color: #a2e4ec;
-    font-size: 20px; 
+    font-size: 1.25em; 
 }
 
 form {
@@ -170,18 +160,16 @@ form {
 }
 form fieldset{
     color: #084a96;
-    background-color: #a2e4ec;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    border: 2px solid #921E15 ;
+    border: 0.125em solid #921E15 ;
 }
 
 form fieldset legend {
     color: #075ca1;
-    background-color: #a2e4ec;
     text-transform: uppercase;
-    padding: 10px 10px;
+    padding: 0.625em 0.625em;
     text-align: center;    
 }
 
