@@ -7,7 +7,6 @@ body {
 }
 /*especifidad: 001*/
 h1 {
-    color: #044077;
     font-size: 4em;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
@@ -15,21 +14,18 @@ h1 {
 }
 /*especifidad: 001*/
 h2 {
-    color: #075ca1;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center;     
 }
 /*especifidad: 001*/
 h3 {
-    color: #075ca1;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center;     
 }
 /*especifidad: 001*/
 h4 {
-    color: #075ca1;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center;     
@@ -43,6 +39,7 @@ p {
 /*especifidad: 001*/
 table {
     color: #084a96;
+    background-color: #0b5fc0;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -57,13 +54,13 @@ th {
 /*especifidad: 001*/
 td {
   color: #000000;
-  background-color: #378792 ;
+  background-color: #328a96 ;
   border: 0.125px solid #000000 ;
 }
 /*especifidad: 001*/
 tr{
   color: #000000;
-  background-color: #40647c ;
+  background-color: #3a6886 ;
   border: 0.07em solid #000000 ;
 }
 /*especifidad: 001*/
@@ -79,7 +76,9 @@ nav {
     display:flex;
     align-items: center;
     justify-content: center;
+    color: #8b8a54;
     background-color: #D4D3BA;
+    min-width: 20em;
 }
 /*especifidad: 002*/
 nav a {
@@ -92,7 +91,6 @@ nav a {
 nav li {
   display: block;
   float: left;
-  color: #a2e4ec;
   padding-right: 1.00em;
   padding-left: 1.00em;
   padding-top: 0.75em;
@@ -120,12 +118,10 @@ a:visited {
 }
 /*especifidad: 011*/
 a:hover {
-  color: #807B19 ;
   font: 400 1.25em Tahoma,sans-serif;
 }
 /*especifidad: 011*/
 a:active {
-  color: #807B19 ;
   font: 400 1.25em Tahoma,sans-serif;
 }
 /*especifidad: 001*/
@@ -162,7 +158,6 @@ figure{
 }
 /*especifidad: 002*/
 figure figcaption{
-    color: #16437e;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center; 
@@ -170,12 +165,10 @@ figure figcaption{
 }
 /*especifidad: 001*/
 cite {
-    color:#000000;
     font-size: 1.25em; 
 }
 /*especifidad: 002*/
 ol li {
-    color:#000000;
     font-size: 1.25em; 
 }
 /*especifidad: 001*/
@@ -187,7 +180,6 @@ form {
 }
 /*especifidad: 002*/
 form fieldset{
-    color: #084a96;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -195,7 +187,6 @@ form fieldset{
 }
 /*especifidad: 003*/
 form fieldset legend {
-    color: #075ca1;
     text-transform: uppercase;
     padding: 0.625em 0.625em;
     text-align: center;    
