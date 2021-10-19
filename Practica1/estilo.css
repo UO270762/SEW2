@@ -1,9 +1,11 @@
+/*especifidad: 001*/
 body {
     font: 400 1em Tahoma,sans-serif; 
     line-height: 1.8;
     color: #000000 ;
     background-color: #a2e4ec;
 }
+/*especifidad: 001*/
 h1 {
     color: #044077;
     font-size: 4em;
@@ -11,27 +13,32 @@ h1 {
     padding: 1.6em 1.6em;
     text-align: center;     
 }
+/*especifidad: 001*/
 h2 {
     color: #075ca1;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center;     
 }
+/*especifidad: 001*/
 h3 {
     color: #075ca1;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center;     
 }
+/*especifidad: 001*/
 h4 {
     color: #075ca1;
     text-transform: uppercase;
     padding: 1.6em 1.6em;
     text-align: center;     
 }
+/*especifidad: 001*/
 p {
   font-size: 1.25em;   
 }
+/*especifidad: 001*/
 table {
     color: #084a96;
     text-transform: uppercase;
@@ -39,25 +46,32 @@ table {
     width: 100%;
     border: 2px solid #921E15 ;
 }
-th,td{
+/*especifidad: 001*/
+th {
   color: #000000;
   background-color: #378792 ;
   border: 0.125px solid #000000 ;
 }
-
+/*especifidad: 001*/
+td {
+  color: #000000;
+  background-color: #378792 ;
+  border: 0.125px solid #000000 ;
+}
+/*especifidad: 001*/
 tr{
   color: #000000;
   background-color: #40647c ;
   border: 0.07em solid #000000 ;
 }
-
+/*especifidad: 001*/
 img {
   max-width: 100%;
   height: 19em;
   display: block;
   margin: auto;
 }
-
+/*especifidad: 001*/
 nav {
     width:100%;
     display:flex;
@@ -65,13 +79,14 @@ nav {
     justify-content: center;
     background-color: #D4D3BA;
 }
+/*especifidad: 002*/
 nav a {
   font-size: 1em;
   outline: none;
   text-transform: none;
   transition: all .3s ease;
 }
-
+/*especifidad: 002*/
 nav li {
   display: block;
   float: left;
@@ -81,27 +96,37 @@ nav li {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
 }
-
+/*especifidad: 001*/
 section {
   padding-right: 5.00em;
   padding-left: 5.00em;
   padding-top: 2.00em;
   padding-bottom: 1.00em;
 }
-
-a:link,
-a:visited {
+/*especifidad: 011*/
+a:link{
   background-color: #D4D3BA;
   color: #353508;
   font: 400  1.25em Tahoma,sans-serif;
 }
+/*especifidad: 011*/
+a:visited {
+  background-color: #D4D3BA;
+  color: #353508;
+  font: 400  1.25em Tahoma,sans-serif;
 
-a:hover,
+}
+/*especifidad: 011*/
+a:hover {
+  color: #807B19 ;
+  font: 400 1.25em Tahoma,sans-serif;
+}
+/*especifidad: 011*/
 a:active {
   color: #807B19 ;
   font: 400 1.25em Tahoma,sans-serif;
 }
-
+/*especifidad: 001*/
 video {
   padding-right: 2.00em;
   padding-left: 5.00em;
@@ -109,33 +134,33 @@ video {
   padding-bottom: 1.00em;
   max-width: 100%;
 }
-
+/*especifidad: 001*/
 audio {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: 45.00em;
   margin-right: 45.00em;
 }
-
+/*especifidad: 001*/
 footer{
   padding-right: 5.00em;
   padding-left: 5.00em;
   padding-top: 2.00em;
   padding-bottom: 1.00em;
 }
-
+/*especifidad: 002*/
 footer img{
     max-width: 100%;
     height: 200px;
 }
-
+/*especifidad: 002*/
 figure{
   padding-right: 5.00em;
   padding-left: 15.00em;
   padding-top: 2.00em;
   padding-bottom: 1.00em;
 }
-
+/*especifidad: 002*/
 figure figcaption{
     color: #16437e;
     text-transform: uppercase;
@@ -143,21 +168,24 @@ figure figcaption{
     text-align: center; 
     font-size: 1.25em;
 }
+/*especifidad: 001*/
 cite {
     color:#000000;
     font-size: 1.25em; 
 }
+/*especifidad: 002*/
 ol li {
     color:#000000;
     font-size: 1.25em; 
 }
-
+/*especifidad: 001*/
 form {
     padding-right: 15.00em;
     padding-left: 15.00em;
     padding-top: 2.00em;
     padding-bottom: 1.00em;
 }
+/*especifidad: 002*/
 form fieldset{
     color: #084a96;
     text-transform: uppercase;
@@ -165,14 +193,14 @@ form fieldset{
     width: 100%;
     border: 0.125em solid #921E15 ;
 }
-
+/*especifidad: 003*/
 form fieldset legend {
     color: #075ca1;
     text-transform: uppercase;
     padding: 0.625em 0.625em;
     text-align: center;    
 }
-
+/*especifidad: 003*/
 form fieldset label {
     color: #084a96;
     background-color: #a2e4ec;
@@ -180,7 +208,7 @@ form fieldset label {
     text-align: center;
     width: 100%;
 }
-
+/*especifidad: 004*/
 form fieldset label input{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
