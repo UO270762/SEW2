@@ -2,19 +2,11 @@ body {
     display: grid;
     grid-template-areas:
     "header"
-    "main"
-    "footer";
+    "nav";
 }
 
 header {
     grid-area: header;
-}
-
-main {
-    grid-area: main;
-    display: grid;
-    grid-template-areas:
-     "nav section"
 }
 
 nav {
@@ -23,3 +15,4 @@ nav {
     height: fit-content;
     padding-right: 1,5em;
 }
+

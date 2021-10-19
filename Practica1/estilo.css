@@ -2,11 +2,11 @@ body {
     font: 400 15px Tahoma,sans-serif; 
     line-height: 1.8;
     color: #000000 ;
-    background-color: #a2e4ec  ;
+    background-color: #a2e4ec;
 }
 h1 {
     color: #044077;
-    background-color: inherit;
+    background-color: #a2e4ec;
     font-size: 60px;
     text-transform: uppercase;
     padding: 25px 25px;
@@ -14,21 +14,21 @@ h1 {
 }
 h2 {
     color: #075ca1;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     padding: 25px 25px;
     text-align: center;     
 }
 h3 {
     color: #075ca1;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     padding: 25px 25px;
     text-align: center;     
 }
 h4 {
     color: #075ca1;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     padding: 25px 25px;
     text-align: center;     
@@ -38,7 +38,7 @@ p {
 }
 table {
     color: #084a96;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -72,7 +72,6 @@ nav {
 nav a {
   font-size: 15px;
   outline: none;
-  text-decoration: none !important;
   text-transform: none;
   transition: all .3s ease;
 }
@@ -80,7 +79,7 @@ nav a {
 nav li {
   display: block;
   float: left;
-  color: inherit;
+  color: #a2e4ec;
   background-color: #D4D3BA;
   padding-right: 1.00em;
   padding-left: 1.00em;
@@ -97,23 +96,25 @@ section {
 
 a:link,
 a:visited {
-  background-color: inherit;
+  background-color: #D4D3BA;
   color: #353508;
   font: 400 20px Tahoma,sans-serif;
 }
 
 a:hover,
 a:active {
-  background-color: inherit;
+  background-color: #a2e4ec;
   color: #807B19 ;
   font: 400 20px Tahoma,sans-serif;
 }
 
 video {
-  padding-right: 5.00em;
-  padding-left: 15.00em;
-  padding-top: 2.00em;
+  padding-right: 2.00em;
+  padding-left: 5.00em;
+  padding-top: 1.00em;
   padding-bottom: 1.00em;
+  max-width: 100%;
+  max-height: auto;
 }
 
 audio {
@@ -144,7 +145,7 @@ figure{
 
 figure figcaption{
     color: #16437e;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     padding: 25px 25px;
     text-align: center; 
@@ -152,12 +153,12 @@ figure figcaption{
 }
 cite {
     color:#000000;
-    background-color: inherit;
+    background-color: #a2e4ec;
     font-size: 20px; 
 }
 ol li {
     color:#000000;
-    background-color: inherit;
+    background-color: #a2e4ec;
     font-size: 20px; 
 }
 
@@ -169,7 +170,7 @@ form {
 }
 form fieldset{
     color: #084a96;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -178,7 +179,7 @@ form fieldset{
 
 form fieldset legend {
     color: #075ca1;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     padding: 10px 10px;
     text-align: center;    
@@ -186,7 +187,7 @@ form fieldset legend {
 
 form fieldset label {
     color: #084a96;
-    background-color: inherit;
+    background-color: #a2e4ec;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
