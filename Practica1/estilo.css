@@ -136,7 +136,11 @@ video {
   padding-bottom: 1.00em;
   max-width: 100%;
 }
-
+/*especifidad: 001*/
+audio {
+  display: block;
+  margin: 0 auto;
+}
 /*especifidad: 001*/
 footer{
   padding-right: 5.00em;
