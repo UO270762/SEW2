@@ -1,0 +1,86 @@
+/*especificidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #a2e4ec;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h2 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h3 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+section {
+    padding-right: 5.00em;
+    padding-left: 5.00em;
+    padding-top: 2.00em;
+    padding-bottom: 1.00em;
+}
+/*especifidad 001*/
+button {
+    background: lightgray;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+}
+/*especifidad: 001*/
+p {
+    font-size: 1.25em; 
+    max-width: 100%;  
+    height: auto;
+}
+/**especifidad: 001*/
+div{
+    padding-right: 5.00em;
+    padding-left: 5.00em;
+    padding-top: 2.00em;
+    padding-bottom: 1.00em;
+}
+/*especifidad: 001*/
+table {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #921E15 ;
+}
+/*especifidad: 001*/
+th {
+  color: #000000;
+  background-color: #378792 ;
+  border: 0.125px solid #000000 ;
+}
+/*especifidad: 001*/
+td {
+  color: #000000;
+  background-color: #328a96 ;
+  border: 0.125px solid #000000 ;
+}
+/*especifidad: 001*/
+tr{
+  color: #000000;
+  background-color: #3a6886 ;
+  border: 0.07em solid #000000 ;
+}
+/*especifidad: 001*/
+footer{
+    padding-right: 5.00em;
+    padding-left: 5.00em;
+    padding-top: 2.00em;
+    padding-bottom: 1.00em;
+}
+

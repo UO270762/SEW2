@@ -1,0 +1,61 @@
+/*especifidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #5a8065;
+    text-align: center;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad 001*/
+button {
+    font-size: 1.2em;
+    background-color: grey;
+    border-radius:1em;
+    color: white;
+}
+/*especifidad:002*/
+form > textarea {
+    resize: none;
+    font-size: 3em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+/*especifidad:002*/
+body > form {
+    position: absolute;
+    left: 42%;
+    display:grid;
+    background-color: rgb(95, 54, 6);
+    border-radius:1em;
+    grid-template-columns: [column1] 4em [column2] 4em [column3] 4em [column4] 4em [end];
+    grid-template-rows: [row1] 4em [row2] 4em [row3] 4em [row4] 4em [row5] 4em [row6] 4em [end];
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    padding: 1em;
+}
+
+/*especifidad: 0,2,2*/
+form > button[type=button]:nth-child(5),
+form > button[type=button]:nth-child(9),
+form > button[type=button]:nth-child(13),
+form > button[type=button]:nth-child(17) {
+    background-color: rgb(224, 75, 75);
+    color: black;
+}
+
+/*especifidad 0,2,2*/
+form > button[type=button]:nth-child(2),
+form > button[type=button]:nth-child(3),
+form > button[type=button]:nth-child(4)  {
+    background-color: rgb(58, 56, 56);
+    color: white;
+}

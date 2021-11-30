@@ -1,0 +1,35 @@
+/*especificidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #f7fbfc;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h2 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+section {
+    width: 60em;
+    height: 60em;
+}
+/*especifidad 001*/
+button {
+    position: relative;
+    margin: auto;
+    display: flex;
+    background: rgb(43, 42, 42);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Ivan Valle Soto">
+        <title>Ejercicio 12</title>
+        <script src="Ejercicio12.js"></script>
+        <link rel="stylesheet" type="text/css" href="Ejercicio12.css">
+    </head>
+
+    <body onload="reader.calcularTamañoArchivos();">
+        <header>
+            <h1>Ejercicio 12</h1>
+        </header>
+        <section>
+            <h2>API File: Selecionar varios archivos de la máquina cliente</h2>
+            <p>Seleccione un archivo de texto:</p>
+            <input id="subirArchivos" type="file" name="Archivos" onchange="reader.calcularTamañoArchivos();" multiple>
+            <p>Archivos seleccionados: <span id="numero">0</span></p>
+            <p>Tamaño total: <span id="tamaño">0</span></p>
+            <span id="nombres"></span>
+    
+            <p>Seleccione un archivo de texto:</p>
+    
+            <input type="file" id="archivoTexto" onchange="reader.leerArchivoTexto(this.files);">
+    
+            <p id="nombreArchivo"></p>
+            <p id="tamañoArchivo"></p>
+            <p id="tipoArchivo"></p>
+            <p id="ultimaModificacion"></p>
+            <p id="contenidoArchivo"></p>
+            <pre id="areaTexto"></pre>
+            <p id="errorLectura"></p>
+        </section>
+            
+    </body>
+</html>

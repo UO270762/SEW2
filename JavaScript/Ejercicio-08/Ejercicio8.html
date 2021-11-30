@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Ivan Valle Soto">
+        <title>Ejercicio 8</title>
+        <script src="Ejercicio8.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Ejercicio8.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                -El tiempo-
+            </h1>
+        </header>
+
+        <section>
+            <h2>
+                Oviedo
+            </h2>
+            <button onclick="new Meteo('Oviedo').verJSON()">Mostrar el tiempo</button>
+       
+            <h2>
+                Cudillero
+            </h2>
+            <button onclick="new Meteo('Cudillero').verJSON()">Mostrar el tiempo</button>
+        
+            <h2>
+                Cardes
+            </h2>
+            <button onclick="new Meteo('Cardes').verJSON()">Mostrar el tiempo</button>
+        
+            <h2>
+                Onao
+            </h2>
+            <button onclick="new Meteo('Onao').verJSON()">Mostrar el tiempo</button>
+
+            <h2>
+                Hervas
+            </h2>
+            <button onclick="new Meteo('Hervas').verJSON()">Mostrar el tiempo</button>
+        </section>
+
+        <article>
+            <h2>Datos</h2>
+        </article>
+
+    </body>
+</html>

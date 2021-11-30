@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Ivan Valle Soto">
+        <title>Geolocalizacion mapa dinamico</title>
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet'/>
+        <script src="GeoLocalizacion.js"></script>
+        <link rel="stylesheet" type="text/css" href="GeoLocalizacion.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>-Geolocalizacion (mapa)-</h1>
+        </header>
+        <section id="seccionMapa">
+            <h2>Mapa</h2>
+            <button onclick="mapaDinamico.getMapa();">Localizame</button>
+        </section>
+    </body>
+</html>

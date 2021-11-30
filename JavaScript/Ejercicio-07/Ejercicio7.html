@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Ivan Valle Soto">
+        <title>Ejercicio 7</title>
+        <script src="Ejercicio7.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Ejercicio 7
+            </h1>
+        </header>
+        
+        <section>
+            <h2>Esto es un encabezado h2</h2>
+
+            <p>
+                Aqui pongo un parrafo, este ejercicio consiste en enlazar
+                Javascript y  JQuery para realizar algunas funciones sobre los
+                elementos de esta pagina; mostrar/ocultar, modificar, añadir
+                eliminar, recorrer y sumar filas y columnas. 
+            </p>
+
+            <h3>Aqui añado una tabla de ejemplo</h3> 
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>-Universidad-</th>
+                        <th>-Titulacion-</th>
+                        <th>-Año-</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Universidad de Oviedo</td>
+                        <td>Ingenieria del software</td>
+                        <td>2021</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Universidad de Oviedo</td>
+                        <td>Fisica</td>
+                        <td>2020</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Universidad de Salamanca</td>
+                        <td>Filosofia</td>
+                        <td>2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div>
+            <input type="button" Value="Ocultar" onclick="ejercicio7.ocultar()" />
+            <input type="button" Value="Mostrar" onclick="ejercicio7.mostrar()" />
+            <input type="button" Value="Modificar" onclick="ejercicio7.modificar()" />
+            <input type="button" Value="Añadir" onclick="ejercicio7.añadir()" />
+            <input type="button" Value="Eliminar" onclick="ejercicio7.eliminar()" />
+            <input type="button" Value="Recorrer" onclick="ejercicio7.recorrer()" />
+            <input type="button" Value="Sumar" onclick="ejercicio7.sumar()" />
+        </div>
+    </body>
+</html>
+

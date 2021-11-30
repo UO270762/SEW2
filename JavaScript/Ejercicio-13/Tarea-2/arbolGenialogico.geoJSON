@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "Árbol genialogico",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Iván Valle Soto", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.848805, 43.362352 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Maria Soto Castaño", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.096312, 43.354347 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Jose Ramón Soto Pumares", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.09645, 43.354531 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Jose Ramón Soto Pumares", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.841223, 43.37126 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Xurde Soto Prieto", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.086332, 43.361233 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Xurde Soto Prieto", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.132058, 43.350596 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Concha Pumares Castro", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.08641, 43.360576 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Concha Pumares Castro", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.086108, 43.3593 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Carmen Castaño Menendez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.09333, 43.353745 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Juan Castaño Bueno", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.095146, 43.354773 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Juan Castaño Bueno", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.093907, 43.354425 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Dolores Menedez Pulido", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.064882, 43.346195 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Dolores Menedez Pulido", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.095086, 43.354878 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Javier Valle Moledo", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.844259, 43.368271 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Sixto Valle Fernandez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.861897, 40.272245 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Sixto Valle Fernandez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.858345, 43.363674 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Paco Valle Garcia", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.858381, 40.27201 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Paco Valle Garcia", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.859045, 40.273497 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Juana Fernandez Manso", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.924568, 40.289224 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Juana Fernandez Manso", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.862921, 40.27493 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Maria Moledo Varela", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.144819, 43.562972 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Xose Moledo Tornin", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.145818, 43.563322 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Xose Moledo Tornin", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.145353, 43.562339 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar nacimiento Munia Varela Delgado", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.148265, 43.561213 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar fallecimiento Munia Varela Delgado", "description": null }, "geometry": { "type": "Point", "coordinates": [ -6.146574, 43.562908 ] } }
+]
+}

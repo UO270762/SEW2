@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Ivan Valle Soto">
+        <title>Ejercicio 14</title>
+        <link rel="stylesheet" type="text/css" href="Ejercicio14.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Reproductor de video</h1>
+        </header>
+        <button onclick="rep.ponerPantallaCompleta()">Poner en pantalla completa</button>
+
+        <h2>Arrasta un video y suelta para reproducir</h2>
+
+        <section id=seccionReproductor>
+            <h2>O escoge desde tu navegador</h2>
+            <input type="file" id="archivoTexto" onchange="rep.anadirVideo(this.files);">
+        </section>
+        <script src="Ejercicio14.js"></script>
+    </body>
+</html>
