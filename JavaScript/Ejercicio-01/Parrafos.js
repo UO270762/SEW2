@@ -1,6 +1,5 @@
 //Parrafos
-document.write("<p>");
-document.write("<h2>Datos asignatura</h2>")
+document.write("<h5>Datos asignatura</h5>");
 document.write("<p>");
 document.write(asignatura.curso);
 document.write("</p>");
