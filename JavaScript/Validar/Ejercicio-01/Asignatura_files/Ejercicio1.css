@@ -1,0 +1,39 @@
+/*especifidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #a2e4ec;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h2 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h3 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h4 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+p {
+  font-size: 1.25em; 
+  max-width: 100%;  
+  height: auto;
+}
+
