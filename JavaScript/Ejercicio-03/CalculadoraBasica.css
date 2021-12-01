@@ -28,6 +28,7 @@ form > textarea {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 1;
+    background-color: rgb(255, 255, 255);
 }
 /*especifidad:002*/
 body > form {

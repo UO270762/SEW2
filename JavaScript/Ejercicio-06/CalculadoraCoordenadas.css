@@ -3,7 +3,7 @@ body {
     font: 400 1em Tahoma,sans-serif; 
     line-height: 1.8;
     color: #000000 ;
-    background-color: #649772;
+    background-color: #ffffff;
     text-align: center;
 }
 /*especifidad: 001*/
@@ -13,35 +13,12 @@ h1 {
     padding: 1.6em 1.6em;
     text-align: center;     
 }
-/*especifidad:012*/
-form > textarea:nth-child(1) {
-    resize: none;
-    font-size: 1em;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    background-color: rgb(124, 172, 180);
-    padding-bottom: 5em;
-    margin-bottom: 0em;
-    color:rgb(0, 0, 0);
-}
-/*especifidad:012*/
-form > textarea:nth-child(2){
-    resize: none;
-    font-size: 1em;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    background-color: rgb(150, 209, 219);
-}
 /*especifidad 001*/
 button {
     font-size: 1.2em;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     border-radius:1em;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 /*especifidad:002*/
 form > textarea {
@@ -57,7 +34,7 @@ body > form {
     position: absolute;
     left: 42%;
     display:grid;
-    background-color: rgb(95, 54, 6);
+    background-color: rgb(0, 0, 0);
     border-radius:1em;
     grid-template-columns: [column1] 4em [column2] 4em [column3] 4em [end];
     grid-template-rows: [row1] 4em [row2] 4em [row3] 4em [row4] 4em [row5] 4em [row6] 4em [row7] 4em [row8] 4em [end];
@@ -74,7 +51,7 @@ form > textarea:nth-child(1) {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: rgb(124, 172, 180);
+    background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
 }
 /*especifidad:012*/
@@ -85,10 +62,5 @@ form > textarea:nth-child(2){
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: rgb(150, 209, 219);
-}
-/*especifidad:022*/
-form > button[type=button]:nth-child(18) {
-    background-color: rgba(209, 34, 34, 0.829);
-    color: black;
+    background-color: rgb(255, 255, 255);
 }
