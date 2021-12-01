@@ -3,7 +3,7 @@ body {
     font: 400 1em Tahoma,sans-serif; 
     line-height: 1.8;
     color: #000000 ;
-    background-color: #5a8065;
+    background-color: #ffffff;
     text-align: center;
 }
 /*especifidad: 001*/
@@ -16,9 +16,9 @@ h1 {
 /*especifidad 001*/
 button {
     font-size: 1.2em;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     border-radius:1em;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 /*especifidad:002*/
 form > textarea {
@@ -34,28 +34,11 @@ body > form {
     position: absolute;
     left: 42%;
     display:grid;
-    background-color: rgb(196, 149, 96);
+    background-color: rgb(0, 0, 0);
     border-radius:1em;
     grid-template-columns: [column1] 4em [column2] 4em [column3] 4em [column4] 4em [end];
     grid-template-rows: [row1] 4em [row2] 4em [row3] 4em [row4] 4em [row5] 4em [row6] 4em [end];
     row-gap: 0.5em;
     column-gap: 0.5em;
     padding: 1em;
-}
-
-/*especifidad: 0,2,2*/
-form > button[type=button]:nth-child(5),
-form > button[type=button]:nth-child(9),
-form > button[type=button]:nth-child(13),
-form > button[type=button]:nth-child(17) {
-    background-color: rgb(204, 40, 40);
-    color: black;
-}
-
-/*especifidad 0,2,2*/
-form > button[type=button]:nth-child(2),
-form > button[type=button]:nth-child(3),
-form > button[type=button]:nth-child(4)  {
-    background-color: rgb(180, 174, 174);
-    color: white;
 }
