@@ -1,0 +1,91 @@
+/*especifidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #ffffff;
+    text-align: center;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad 001*/
+button {
+    font-size: 1.2em;
+    background-color: rgb(162, 167, 164);
+    border-radius:1em;
+    color: rgb(0, 0, 0);
+}
+/*especifidad:012*/
+form > textarea:nth-child(1) {
+    resize: none;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: rgb(133, 161, 146);
+    padding-bottom: 5em;
+    margin-bottom: 0em;
+    color:rgb(0, 0, 0);
+}
+/*especifidad:012*/
+form > textarea:nth-child(2){
+    resize: none;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: rgb(149, 175, 161);
+    color:rgb(0, 0, 0);
+}
+/*especifidad:002*/
+body > form {
+    position: absolute;
+    left: 40%;
+    display:grid;
+    background-color: rgb(73, 67, 77);
+    border-radius:1em;
+    grid-template-columns: [column1] 4em [column2] 4em [column3] 4em [column4] 4em [end];
+    grid-template-rows: [row1] 4em [row2] 4em [row3] 4em [row4] 4em [row5] 4em [row6] 4em [row7] 4em [row8] 4em [row9] 4em [end];
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    padding: 1em;
+}
+
+
+/*013*/
+body > form > button:nth-child(3),
+body > form > button:nth-child(4),
+body > form > button:nth-child(5),
+body > form > button:nth-child(6),
+body > form > button:nth-child(7),
+body > form > button:nth-child(8),
+body > form > button:nth-child(9),
+body > form > button:nth-child(10),
+body > form > button:nth-child(14),
+body > form > button:nth-child(18),
+body > form > button:nth-child(22){
+    background-color: rgb(76, 160, 172);
+    color: black;
+}
+
+body > form > button:nth-child(27),
+body > form > button:nth-child(25){
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body > form > button:nth-child(26){
+    background-color: rgb(175, 44, 44);
+    color: black;
+}
+
+
+
+

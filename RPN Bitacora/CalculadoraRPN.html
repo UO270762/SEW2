@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Ivan Valle Soto">
+    <title>Calculadora RPN</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css">
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+    <body>
+        <header>
+            <h1>-Calculadora RPN-</h1>
+        </header>
+
+        <section>
+            <p>Calculadora RPN: Las calculadoras RPN utilizan notación postfija o RPN, es decir primero van los operandos y
+                después los operadores. En la pila solamente se introducen los números (haciendo click en los botones NO escribiendo en la pantalla).
+                Por ejemplo, para calcular 12+3 se debe escribir “12 Ent 3 Ent +”
+                La evaluación se realiza utilizando una pila, así para evaluar “12 Ent 3 Ent +” el proceso es el
+                siguiente:
+                -se teclea 12 (se inserta 12 en la pila pulsando la tecla “Ent”)
+                En caso de que queramos borrar algun dato de la pantalla, con la tecla ←x y si queremos borrar todos los datos de la calculadora con la tecla C</p>
+        </section>
+
+        <form>
+            <textarea id="pantalla1" title= "res1" disabled></textarea>
+            <textarea id="pantalla2" title= "res2" disabled></textarea>
+            <button type="button" onClick="calculadora.log()">log</button>
+            <button type="button" onClick="calculadora.sin()">sin</button>
+            <button type="button" onClick="calculadora.cos()">cos</button>
+            <button type="button" onClick="calculadora.tan()">tan</button>
+            <button type="button" onClick="calculadora.cuadrado()">X^2</button>
+            <button type="button" onClick="calculadora.potencia()">X^Y</button>
+            <button type="button" onClick="calculadora.raiz()">√</button>
+            <button type="button" onClick="calculadora.division()">/</button>
+            <button type="button" onClick="calculadora.digitos('7')">7</button>
+            <button type="button" onClick="calculadora.digitos('8')">8</button>
+            <button type="button" onClick="calculadora.digitos('9')">9</button>
+            <button type="button" onClick="calculadora.multiplicacion()">*</button>
+            <button type="button" onClick="calculadora.digitos('4')">4</button>
+            <button type="button" onClick="calculadora.digitos('5')">5</button>
+            <button type="button" onClick="calculadora.digitos('6')">6</button>
+            <button type="button" onClick="calculadora.resta()">-</button>
+            <button type="button" onClick="calculadora.digitos('1')">1</button>
+            <button type="button" onClick="calculadora.digitos('2')">2</button>
+            <button type="button" onClick="calculadora.digitos('3')">3</button>
+            <button type="button" onClick="calculadora.suma()">+</button>
+            <button type="button" onClick="calculadora.digitos('0')">0</button>
+            <button type="button" onClick="calculadora.decimal()">.</button>
+            <button type="submit" onClick="calculadora.borrar()">C</button>
+            <button type="button" onClick="calculadora.enter()">Ent</button>
+            <button type="button" onClick="calculadora.borrarPant()">←x</button>
+        </form>
+
+    </body>
+</html>
