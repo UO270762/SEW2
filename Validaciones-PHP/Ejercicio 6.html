@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="Ejercicio 6">
+    <meta name="keywords" content="gestion bbdd,base,datos">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Ivan Valle Soto">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" type="text/css" href="./Ejercicio 6_files/Ejercicio6.css">
+</head>
+
+<body>
+    <header>
+        <h1>Menu para la gestion de la bbbd en MySQL:</h1>
+    </header>
+
+    <form id="crearBase" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+            <legend>Crear base de datos</legend>
+            <input type="submit" class="button" name="creaBase" value="Crear">
+        </fieldset>
+    </form>
+
+    <form id="crearTabla" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+            <legend>Crear tabla en la bbdd:</legend>
+            <input type="submit" class="button" name="crearTabla" value="Crear">
+        </fieldset>
+    </form>
+
+    <form id="añadirPrueba" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+        <legend>Añadir prueba a la base de datos:</legend>
+            <label for="dniA">Dni de la prueba a modificar: </label>
+            <input id="dniA" type="text" name="dniA" required="">
+            <br>
+            <label for="nombreA">Nombre: </label>
+            <input id="nombreA" type="text" name="nombreA" required="">
+            <br>
+            <label for="apellidosA">Apellidos: </label>
+            <input id="apellidosA" type="text" name="apellidosA" required="">
+            <br>
+            <label for="emailA">Email: </label>
+            <input id="emailA" type="email" name="emailA" required="">
+            <br>
+            <label for="telefonoA">Telefono: </label>
+            <input id="telefonoA" type="tel" name="telefonoA" required="">
+            <br>
+            <label for="edadA">Edad: </label>
+            <input id="edadA" type="number" name="edadA" required="">
+            <br>
+            <label for="sexoA">Sexo:</label>
+            <select id="sexoA" name="sexoA" title="sexo">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+            </select>
+            <br>
+            <label for="nivelA">Nivel informatico:</label>
+            <input id="nivelA" type="number" name="nivelA" required="">
+            <br>
+            <label for="tiempoA">Tiempo del prueba (segundos):</label>
+            <input id="tiempoA" type="number" name="tiempoA" required="">
+            <br>
+            <label for="realizadaA">Realizada correctamente:</label>
+            <input id="realizadaA" type="text" name="realizadaA" required="">
+            <br>
+            <label for="comentariosA">Comentarios sobre el prueba: </label>
+            <textarea id="comentariosA" name="comentariosA" required=""></textarea>
+            <br>
+            <label for="propuestasA">Propuestas sobre la pagina: </label>
+            <textarea id="propuestasA" name="propuestasA" required=""></textarea>
+            <br>
+            <label for="valoracionA">Valoracion:</label>
+            <input id="valoracionA" type="number" name="valoracionA" required="">
+            <br>
+            <input type="submit" class="button" name="añadirPrueba" value="Añadir">
+        </fieldset>
+    </form>
+
+    <form id="buscarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+            <legend>Buscar datos por dni:</legend>
+            <input id="dniB" type="text" name="dniB">
+            <input type="submit" class="button" name="buscarDatos" value="Buscar">
+        </fieldset>
+    </form>
+
+    <form id="modificarPrueba" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+        <legend>Modificar datos en la base:</legend>
+            <label for="dniM">Dni de la prueba a modificar: </label>
+            <input id="dniM" type="text" name="dniM" required="">
+            <br>
+            <label for="nombreM">Nombre: </label>
+            <input id="nombreM" type="text" name="nombreM" required="">
+            <br>
+            <label for="apellidosM">Apellidos: </label>
+            <input id="apellidosM" type="text" name="apellidosM" required="">
+            <br>
+            <label for="emailM">Email: </label>
+            <input id="emailM" type="email" name="emailM" required="">
+            <br>
+            <label for="telefonoM">Telefono: </label>
+            <input id="telefonoM" type="tel" name="telefonoM" required="">
+            <br>
+            <label for="edadM">Edad: </label>
+            <input id="edadM" type="number" name="edadM" required="">
+            <br>
+            <label for="sexoM">Sexo:</label>
+            <select id="sexoM" name="sexoM" title="sexoM">
+                    <option value="hombre" selected="">Hombre</option>
+                    <option value="mujer">Mujer</option>
+            </select>
+            <br>
+            <label for="nivelM">Nivel informatico:</label>
+            <input id="nivelM" type="number" name="nivelM" required="">
+            <br>
+            <label for="tiempoM">Tiempo del prueba (segundos):</label>
+            <input id="tiempoM" type="number" name="tiempoM" required="">
+            <br>
+            <label for="realizadaM">Realizada correctamente:</label>
+            <input id="realizadaM" type="text" name="realizadaM" required="">
+            <br>
+            <label for="comentariosM">Comentarios sobre el prueba: </label>
+            <textarea id="comentariosM" name="comentariosM" required=""></textarea>
+            <br>
+            <label for="propuestasM">Propuestas sobre la pagina: </label>
+            <textarea id="propuestasM" name="propuestasM" required=""></textarea>
+            <br>
+            <label for="valoracionM">Valoracion:</label>
+            <input id="valoracionM" type="number" name="valoracionM" required="">
+            <br>
+            <input type="submit" class="button" name="modificarPrueba" value="Modificar">
+        </fieldset>
+    </form>
+
+    <form id="eliminarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+            <legend>Eliminar datos por dni:</legend>
+            <input id="dniE" type="text" name="dniE">
+            <input type="submit" class="button" name="eliminarDatos">
+        </fieldset>
+    </form>
+
+    <form id="generarInforme" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+            <legend>Generar informe</legend>
+            <input type="submit" class="button" name="generarInforme" value="Generar">
+        </fieldset>
+    </form>
+
+    <form id="importarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Importar datos desde archivo CSV:</legend>
+            <label for="file"></label>
+            <input id="file" type="file" name="archivo">
+            <input type="submit" name="importarDatos" value="Importar">
+        </fieldset>
+    </form>
+
+    <form id="exportarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
+        <fieldset>
+            <legend>Exportar datos a un archivo CSV:</legend>
+            <input type="submit" class="button" name="exportarDatos" value="Exportar">
+        </fieldset>
+    </form>
+    
+    
+
+</body></html>
