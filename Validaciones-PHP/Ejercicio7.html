@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="Ejercicio 6">
+    <meta name="keywords" content="gestion bbdd,base,datos">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Ivan Valle Soto">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" type="text/css" href="./Ejercicio 7_files/Ejercicio7.css">
+</head>
+
+<body>
+    <header>
+        <h1>Menu para la gestion de la bbbd en MySQL:</h1>
+    </header>
+
+    <form id="añadirAlumno" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Añadir alumno a base</legend>
+            <label for="codeAlumno">Codigo alumno:</label>
+            <input id="codeAlumno" type="number" name="codeAlumno" required="">
+            <label for="nombreAlumno">Nombre alumno:</label>
+            <input id="nombreAlumno" type="text" name="nombreAlumno" required="">
+
+            <input type="submit" class="button" name="añadirAlumno" value="Añadir">
+        </fieldset>
+    </form>
+
+    <form id="añadirAsignatura" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Añadir asignatura a base</legend>
+            <label for="codeAsig">Codigo asignatura:</label>
+            <input id="codeAsig" type="number" name="codeAsig" required="">
+            <label for="nombreAsig">Nombre asignatura:</label>
+            <input id="nombreAsig" type="text" name="nombreAsig" required="">
+            <label for="tipoAsig">Tipo asignatura:</label>
+            <input id="tipoAsig" type="text" name="tipoAsig" required="">
+
+            <input type="submit" class="button" name="añadirAsignatura" value="Añadir">
+        </fieldset>
+    </form>
+
+    <form id="añadirGrupo" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Añadir grupo a base</legend>
+            <label for="codeGrupo">Codigo grupo:</label>
+            <input id="codeGrupo" type="number" name="codeGrupo" required="">
+            <label for="horaIni">Hora inicio grupo:</label>
+            <input id="horaIni" type="text" name="horaIni" required="">
+            <label for="horaFin">Hora fin grupo:</label>
+            <input id="horaFin" type="text" name="horaFin" required="">
+
+            <input type="submit" class="button" name="añadirGrupo" value="Añadir">
+        </fieldset>
+    </form>
+
+    <form id="matricularAsignatura" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Matricular asignatura:</legend>
+            <label for="codeMatricula">Codigo matricula:</label>
+            <input id="codeMatricula" type="number" name="codeMatricula" required="">
+            <label for="codeAlumnoM">Codigo alumno:</label>
+            <input id="codeAlumnoM" type="number" name="codeAlumnoM" required="">
+            <label for="codeAsigM">Codigo asignatura:</label>
+            <input id="codeAsigM" type="number" name="codeAsigM" required="">
+            <label for="codeGrupoM">Codigo grupo:</label>
+            <input id="codeGrupoM" type="number" name="codeGrupoM" required="">
+            <label for="precioMatricula">Precio matricula:</label>
+            <input id="precioMatricula" type="number" name="precioMatricula" required="">
+
+            <input type="submit" class="button" name="matricular" value="Matricular">
+        </fieldset>
+    </form>
+
+    <form id="mostrarMatricula" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Mostrar matricula:</legend>
+            <label for="codeMatriculaB">Codigo matricula:</label>
+            <input id="codeMatriculaB" type="text" name="codeMatriculaB">
+            <input type="submit" class="button" name="mostrarMatricula" value="Mostrar">
+        </fieldset>
+    </form>
+
+    <form id="eliminarMatricula" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Eliminar matricula:</legend>
+            <label for="codeMatriculaE">Codigo matricula:</label>
+            <input id="codeMatriculaE" type="text" name="codeMatriculaE">
+            <input type="submit" class="button" name="eliminarMatricula" value="Eliminar">
+        </fieldset>
+    </form>
+
+    <form id="exportar" method="post" action="http://localhost/PHP/Ejercicio-7/Ejercicio7.php#">
+        <fieldset>
+            <legend>Exportar datos a un archivo CSV:</legend>
+            <input type="submit" class="button" name="exportarDatos" value="Exportar">
+        </fieldset>
+    </form>
+
+    </body></html>
