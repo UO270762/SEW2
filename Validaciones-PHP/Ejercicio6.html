@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Ivan Valle Soto">
     <title>Ejercicio 6</title>
-    <link rel="stylesheet" type="text/css" href="./Ejercicio 6_files/Ejercicio6.css">
+    <link rel="stylesheet" type="text/css" href="./Ejercicio6_files/Ejercicio6.css">
 </head>
 
 <body>
@@ -18,6 +18,7 @@
     <form id="crearBase" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
         <fieldset>
             <legend>Crear base de datos</legend>
+            <label for="crearBase">crear base: </label>
             <input type="submit" class="button" name="creaBase" value="Crear">
         </fieldset>
     </form>
@@ -25,6 +26,7 @@
     <form id="crearTabla" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
         <fieldset>
             <legend>Crear tabla en la bbdd:</legend>
+            <label for="crearTabla">crear tabla: </label>
             <input type="submit" class="button" name="crearTabla" value="Crear">
         </fieldset>
     </form>
@@ -81,6 +83,7 @@
     <form id="buscarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
         <fieldset>
             <legend>Buscar datos por dni:</legend>
+            <label for="dniB">Introducir dni:</label>
             <input id="dniB" type="text" name="dniB">
             <input type="submit" class="button" name="buscarDatos" value="Buscar">
         </fieldset>
@@ -138,14 +141,16 @@
     <form id="eliminarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
         <fieldset>
             <legend>Eliminar datos por dni:</legend>
+            <label for="dniE">Introducir Dni:</label>
             <input id="dniE" type="text" name="dniE">
-            <input type="submit" class="button" name="eliminarDatos">
+            <input type="submit" class="button" name="eliminarDatos" value="Eliminar">
         </fieldset>
     </form>
 
     <form id="generarInforme" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
         <fieldset>
             <legend>Generar informe</legend>
+            <label for="generarInforme">Generar:</label>
             <input type="submit" class="button" name="generarInforme" value="Generar">
         </fieldset>
     </form>
@@ -153,7 +158,7 @@
     <form id="importarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#" enctype="multipart/form-data">
         <fieldset>
             <legend>Importar datos desde archivo CSV:</legend>
-            <label for="file"></label>
+            <label for="file">Importar</label>
             <input id="file" type="file" name="archivo">
             <input type="submit" name="importarDatos" value="Importar">
         </fieldset>
@@ -162,6 +167,7 @@
     <form id="exportarDatos" method="post" action="http://localhost/PHP/Ejercicio-6/Ejercicio6.php#">
         <fieldset>
             <legend>Exportar datos a un archivo CSV:</legend>
+            <label for="exportarDatos">Exportar:</label>
             <input type="submit" class="button" name="exportarDatos" value="Exportar">
         </fieldset>
     </form>
