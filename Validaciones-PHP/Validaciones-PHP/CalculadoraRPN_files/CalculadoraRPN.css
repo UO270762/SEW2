@@ -1,0 +1,60 @@
+/*especifidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #ffffff;
+    text-align: center;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad 001*/
+button {
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 255);
+    border-radius:1em;
+    color: rgb(0, 0, 0);
+}
+/*especifidad:012*/
+form > textarea:nth-child(1) {
+    resize: none;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5em;
+    margin-bottom: 0em;
+    color:rgb(0, 0, 0);
+}
+/*especifidad:012*/
+form > textarea:nth-child(2){
+    resize: none;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+/*especifidad:002*/
+body > form {
+    position: absolute;
+    left: 40%;
+    display:grid;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius:1em;
+    grid-template-columns: [column1] 4em [column2] 4em [column3] 4em [column4] 4em [end];
+    grid-template-rows: [row1] 4em [row2] 4em [row3] 4em [row4] 4em [row5] 4em [row6] 4em [row7] 4em [row8] 4em [end];
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    padding: 1em;
+}

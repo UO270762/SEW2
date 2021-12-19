@@ -1,0 +1,61 @@
+/*especifidad: 001*/
+body {
+    font: 400 1em Tahoma,sans-serif; 
+    line-height: 1.8;
+    color: #000000 ;
+    background-color: #a2e4ec;
+}
+/*especifidad: 001*/
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+h2 {
+    text-transform: uppercase;
+    padding: 1.6em 1.6em;
+    text-align: center;     
+}
+/*especifidad: 001*/
+p {
+    font-size: 1.25em; 
+    max-width: 100%;  
+    height: auto;
+}
+/*especifidad: 001*/
+section {
+    padding-right: 5.00em;
+    padding-left: 5.00em;
+    padding-top: 2.00em;
+    padding-bottom: 1.00em;
+}
+/*especifidad: 001*/
+form {
+    padding-right: 15.00em;
+    padding-left: 15.00em;
+    padding-top: 2.00em;
+    padding-bottom: 1.00em;
+}
+/*especifidad: 002*/
+form fieldset{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    border: 0.125em solid #921E15 ;
+}
+/*especifidad: 003*/
+form fieldset legend {
+    text-transform: uppercase;
+    padding: 0.625em 0.625em;
+    text-align: center;    
+}
+
+/*especifidad: 003*/
+form fieldset input{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
